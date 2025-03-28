@@ -39,7 +39,7 @@ document.querySelector(".error").style.display = "none";
 }
 }
 btn.addEventListener("click", () => {
-    getWeatherData(search.value);ṇ
+    getWeatherData(search.value);
 });
 
 document.addEventListener("keypress", (event) => {
