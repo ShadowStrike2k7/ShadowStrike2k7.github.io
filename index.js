@@ -41,3 +41,9 @@ document.querySelector(".error").style.display = "none";
 btn.addEventListener("click", () => {
     getWeatherData(search.value);ṇ
 });
+
+document.addEventListener("keypress", (event) => {
+    if(event.key === "Enter") {
+        getWeatherData(search.value);
+    }
+});
